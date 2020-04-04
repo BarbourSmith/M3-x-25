@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -31,6 +31,23 @@
                     "ioValues": [
                         {
                             "name": "height",
+                            "ioValue": -25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.4158125915080527,
+                    "y": 0.39463601532567044,
+                    "uniqueID": 742810,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
                             "ioValue": 10
                         }
                     ]
@@ -44,7 +61,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 5.7
                         }
                     ]
                 },
@@ -57,9 +74,24 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 1.65
                         }
                     ]
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.58199121522694,
+                    "y": 0.48275862068965514,
+                    "uniqueID": 782677,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 1,
+                        "costUSD": 0.1572,
+                        "source": "https://www.mcmaster.com/91239a126",
+                        "totalNeeded": 1
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -79,14 +111,41 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 724868,
+                    "ap2ID": 742810
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 742810,
+                    "ap2ID": 782677
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 941370,
                     "ap2ID": 265550
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 265550,
+                    "ap2ID": 742810
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 782677
                 }
             ],
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "1.9"
+    "circleSegmentSize": "0.1"
 }

@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|name|1|$0.16|https://www.mcmaster.com/91239a126|
+|Total: |1|$0.16| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.47
